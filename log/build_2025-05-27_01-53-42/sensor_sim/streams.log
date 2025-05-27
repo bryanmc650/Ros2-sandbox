@@ -1,0 +1,23 @@
+[0.019s] Invoking command in '/home/bryan_wsl/projects/ros2_ws/build/sensor_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bryan_wsl/projects/ros2_ws/build/sensor_sim -- -j20 -l20
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target sensor_sim[0m
+[0.116s] [100%] Built target sensor_sim
+[0.124s] Invoked command in '/home/bryan_wsl/projects/ros2_ws/build/sensor_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bryan_wsl/projects/ros2_ws/build/sensor_sim -- -j20 -l20
+[0.130s] Invoking command in '/home/bryan_wsl/projects/ros2_ws/build/sensor_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bryan_wsl/projects/ros2_ws/build/sensor_sim
+[0.135s] -- Install configuration: ""
+[0.137s] -- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/lib/sensor_sim/sensor_sim
+[0.137s] -- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/ament_index/resource_index/package_run_dependencies/sensor_sim
+[0.137s] -- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/ament_index/resource_index/parent_prefix_path/sensor_sim
+[0.137s] -- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/environment/ament_prefix_path.sh
+[0.137s] -- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/environment/ament_prefix_path.dsv
+[0.137s] -- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/environment/path.sh
+[0.138s] -- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/environment/path.dsv
+[0.138s] -- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/local_setup.bash
+[0.138s] -- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/local_setup.sh
+[0.138s] -- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/local_setup.zsh
+[0.139s] -- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/local_setup.dsv
+[0.139s] -- Installing: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/package.dsv
+[0.139s] -- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/ament_index/resource_index/packages/sensor_sim
+[0.140s] -- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/cmake/sensor_simConfig.cmake
+[0.140s] -- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/cmake/sensor_simConfig-version.cmake
+[0.140s] -- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/package.xml
+[0.162s] Invoked command in '/home/bryan_wsl/projects/ros2_ws/build/sensor_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bryan_wsl/projects/ros2_ws/build/sensor_sim

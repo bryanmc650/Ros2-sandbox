@@ -1,0 +1,16 @@
+/home/bryan_wsl/projects/ros2_ws/install/sensor_fusion_core/lib/sensor_fusion_core/sensor_fusion_core
+/home/bryan_wsl/projects/ros2_ws/install/sensor_fusion_core/share/ament_index/resource_index/package_run_dependencies/sensor_fusion_core
+/home/bryan_wsl/projects/ros2_ws/install/sensor_fusion_core/share/ament_index/resource_index/parent_prefix_path/sensor_fusion_core
+/home/bryan_wsl/projects/ros2_ws/install/sensor_fusion_core/share/sensor_fusion_core/environment/ament_prefix_path.sh
+/home/bryan_wsl/projects/ros2_ws/install/sensor_fusion_core/share/sensor_fusion_core/environment/ament_prefix_path.dsv
+/home/bryan_wsl/projects/ros2_ws/install/sensor_fusion_core/share/sensor_fusion_core/environment/path.sh
+/home/bryan_wsl/projects/ros2_ws/install/sensor_fusion_core/share/sensor_fusion_core/environment/path.dsv
+/home/bryan_wsl/projects/ros2_ws/install/sensor_fusion_core/share/sensor_fusion_core/local_setup.bash
+/home/bryan_wsl/projects/ros2_ws/install/sensor_fusion_core/share/sensor_fusion_core/local_setup.sh
+/home/bryan_wsl/projects/ros2_ws/install/sensor_fusion_core/share/sensor_fusion_core/local_setup.zsh
+/home/bryan_wsl/projects/ros2_ws/install/sensor_fusion_core/share/sensor_fusion_core/local_setup.dsv
+/home/bryan_wsl/projects/ros2_ws/install/sensor_fusion_core/share/sensor_fusion_core/package.dsv
+/home/bryan_wsl/projects/ros2_ws/install/sensor_fusion_core/share/ament_index/resource_index/packages/sensor_fusion_core
+/home/bryan_wsl/projects/ros2_ws/install/sensor_fusion_core/share/sensor_fusion_core/cmake/sensor_fusion_coreConfig.cmake
+/home/bryan_wsl/projects/ros2_ws/install/sensor_fusion_core/share/sensor_fusion_core/cmake/sensor_fusion_coreConfig-version.cmake
+/home/bryan_wsl/projects/ros2_ws/install/sensor_fusion_core/share/sensor_fusion_core/package.xml

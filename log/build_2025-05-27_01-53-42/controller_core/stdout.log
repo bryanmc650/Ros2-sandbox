@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target controller_core[0m
+[100%] Built target controller_core
+-- Install configuration: ""
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/controller_core/lib/controller_core/controller_core
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/controller_core/share/ament_index/resource_index/package_run_dependencies/controller_core
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/controller_core/share/ament_index/resource_index/parent_prefix_path/controller_core
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/environment/ament_prefix_path.sh
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/environment/path.sh
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/environment/path.dsv
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/local_setup.bash
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/local_setup.sh
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/local_setup.zsh
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/local_setup.dsv
+-- Installing: /home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/package.dsv
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/controller_core/share/ament_index/resource_index/packages/controller_core
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/cmake/controller_coreConfig.cmake
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/cmake/controller_coreConfig-version.cmake
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/package.xml

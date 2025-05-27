@@ -1,0 +1,16 @@
+/home/bryan_wsl/projects/ros2_ws/install/controller_core/lib/controller_core/controller_core
+/home/bryan_wsl/projects/ros2_ws/install/controller_core/share/ament_index/resource_index/package_run_dependencies/controller_core
+/home/bryan_wsl/projects/ros2_ws/install/controller_core/share/ament_index/resource_index/parent_prefix_path/controller_core
+/home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/environment/ament_prefix_path.sh
+/home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/environment/ament_prefix_path.dsv
+/home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/environment/path.sh
+/home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/environment/path.dsv
+/home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/local_setup.bash
+/home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/local_setup.sh
+/home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/local_setup.zsh
+/home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/local_setup.dsv
+/home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/package.dsv
+/home/bryan_wsl/projects/ros2_ws/install/controller_core/share/ament_index/resource_index/packages/controller_core
+/home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/cmake/controller_coreConfig.cmake
+/home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/cmake/controller_coreConfig-version.cmake
+/home/bryan_wsl/projects/ros2_ws/install/controller_core/share/controller_core/package.xml

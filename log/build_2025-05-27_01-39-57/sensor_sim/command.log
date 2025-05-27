@@ -1,0 +1,6 @@
+Invoking command in '/home/bryan_wsl/projects/ros2_ws/build/sensor_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bryan_wsl/projects/ros2_ws/src/sensor_sim -DCMAKE_INSTALL_PREFIX=/home/bryan_wsl/projects/ros2_ws/install/sensor_sim
+Invoked command in '/home/bryan_wsl/projects/ros2_ws/build/sensor_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bryan_wsl/projects/ros2_ws/src/sensor_sim -DCMAKE_INSTALL_PREFIX=/home/bryan_wsl/projects/ros2_ws/install/sensor_sim
+Invoking command in '/home/bryan_wsl/projects/ros2_ws/build/sensor_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bryan_wsl/projects/ros2_ws/build/sensor_sim -- -j20 -l20
+Invoked command in '/home/bryan_wsl/projects/ros2_ws/build/sensor_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bryan_wsl/projects/ros2_ws/build/sensor_sim -- -j20 -l20
+Invoking command in '/home/bryan_wsl/projects/ros2_ws/build/sensor_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bryan_wsl/projects/ros2_ws/build/sensor_sim
+Invoked command in '/home/bryan_wsl/projects/ros2_ws/build/sensor_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bryan_wsl/projects/ros2_ws/build/sensor_sim
