@@ -12,7 +12,7 @@ find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
 add_executable(sensor_sim src/sensor_sim.cpp)
-ament_target_dependencies(sensor_sim rclcpp std_msgs sensor_msgs)
+ament_target_dependencies(sensor_sim rclcpp std_msgs sensor_msgs geometry_msgs)
 install(TARGETS sensor_sim DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

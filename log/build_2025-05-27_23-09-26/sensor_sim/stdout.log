@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target sensor_sim[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sensor_sim.dir/src/sensor_sim.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sensor_sim[0m
+[100%] Built target sensor_sim
+-- Install configuration: ""
+-- Installing: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/lib/sensor_sim/sensor_sim
+-- Set runtime path of "/home/bryan_wsl/projects/ros2_ws/install/sensor_sim/lib/sensor_sim/sensor_sim" to ""
+-- Installing: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/ament_index/resource_index/package_run_dependencies/sensor_sim
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/ament_index/resource_index/parent_prefix_path/sensor_sim
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/environment/ament_prefix_path.sh
+-- Installing: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/environment/path.sh
+-- Installing: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/environment/path.dsv
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/local_setup.bash
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/local_setup.sh
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/local_setup.zsh
+-- Installing: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/local_setup.dsv
+-- Installing: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/package.dsv
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/ament_index/resource_index/packages/sensor_sim
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/cmake/sensor_simConfig.cmake
+-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/cmake/sensor_simConfig-version.cmake
+-- Installing: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/package.xml

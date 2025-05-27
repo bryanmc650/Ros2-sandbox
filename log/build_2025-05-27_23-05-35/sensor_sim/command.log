@@ -1,0 +1,2 @@
+Invoking command in '/home/bryan_wsl/projects/ros2_ws/build/sensor_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bryan_wsl/projects/ros2_ws/build/sensor_sim -- -j20 -l20
+Invoked command in '/home/bryan_wsl/projects/ros2_ws/build/sensor_sim' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bryan_wsl/projects/ros2_ws/build/sensor_sim -- -j20 -l20

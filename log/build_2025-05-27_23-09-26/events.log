@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.000552] (-) JobUnselected: {'identifier': 'controller_core'}
+[0.000623] (-) JobUnselected: {'identifier': 'path_planner'}
+[0.000635] (-) JobUnselected: {'identifier': 'sensor_fusion_core'}
+[0.000646] (sensor_sim) JobQueued: {'identifier': 'sensor_sim', 'dependencies': OrderedDict()}
+[0.000657] (sensor_sim) JobStarted: {'identifier': 'sensor_sim'}
+[0.010040] (sensor_sim) JobProgress: {'identifier': 'sensor_sim', 'progress': 'cmake'}
+[0.010735] (sensor_sim) JobProgress: {'identifier': 'sensor_sim', 'progress': 'build'}
+[0.011498] (sensor_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bryan_wsl/projects/ros2_ws/build/sensor_sim', '--', '-j20', '-l20'], 'cwd': '/home/bryan_wsl/projects/ros2_ws/build/sensor_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bryan_wsl'), ('GIT_ASKPASS', '/home/bryan_wsl/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/bryan_wsl'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c1807fcb-eca5-43d1-82e0-d23dee6b2c16.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/bryan_wsl/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/bryan_wsl/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bryan_wsl'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/2517_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bryan_wsl/bin:/home/bryan_wsl/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/remote-cli:/home/bryan_wsl/bin:/opt/ros/humble/bin:/home/bryan_wsl/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Bryan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Bryan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Bryan/.dotnet/tools:/snap/bin:/home/bryan_wsl/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('WT_SESSION', 'e61404ac-5466-4b54-adbf-f96e36367286'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fd7448247a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/bryan_wsl/projects/ros2_ws/build/sensor_sim'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099831] (-) TimerEvent: {}
+[0.120109] (sensor_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensor_sim\x1b[0m\n'}
+[0.131442] (sensor_sim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sensor_sim.dir/src/sensor_sim.cpp.o\x1b[0m\n'}
+[0.200272] (-) TimerEvent: {}
+[0.300665] (-) TimerEvent: {}
+[0.400939] (-) TimerEvent: {}
+[0.501175] (-) TimerEvent: {}
+[0.601499] (-) TimerEvent: {}
+[0.701810] (-) TimerEvent: {}
+[0.802098] (-) TimerEvent: {}
+[0.902387] (-) TimerEvent: {}
+[1.002660] (-) TimerEvent: {}
+[1.103191] (-) TimerEvent: {}
+[1.203510] (-) TimerEvent: {}
+[1.303809] (-) TimerEvent: {}
+[1.404126] (-) TimerEvent: {}
+[1.504537] (-) TimerEvent: {}
+[1.604893] (-) TimerEvent: {}
+[1.705516] (-) TimerEvent: {}
+[1.806131] (-) TimerEvent: {}
+[1.906434] (-) TimerEvent: {}
+[2.006830] (-) TimerEvent: {}
+[2.107145] (-) TimerEvent: {}
+[2.207433] (-) TimerEvent: {}
+[2.307843] (-) TimerEvent: {}
+[2.408203] (-) TimerEvent: {}
+[2.508794] (-) TimerEvent: {}
+[2.609094] (-) TimerEvent: {}
+[2.709440] (-) TimerEvent: {}
+[2.809781] (-) TimerEvent: {}
+[2.910056] (-) TimerEvent: {}
+[3.010385] (-) TimerEvent: {}
+[3.110676] (-) TimerEvent: {}
+[3.211099] (-) TimerEvent: {}
+[3.311480] (-) TimerEvent: {}
+[3.412085] (-) TimerEvent: {}
+[3.512398] (-) TimerEvent: {}
+[3.612704] (-) TimerEvent: {}
+[3.713181] (-) TimerEvent: {}
+[3.813482] (-) TimerEvent: {}
+[3.863770] (sensor_sim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sensor_sim\x1b[0m\n'}
+[3.913602] (-) TimerEvent: {}
+[4.013882] (-) TimerEvent: {}
+[4.114156] (-) TimerEvent: {}
+[4.136089] (sensor_sim) StdoutLine: {'line': b'[100%] Built target sensor_sim\n'}
+[4.143133] (sensor_sim) CommandEnded: {'returncode': 0}
+[4.144323] (sensor_sim) JobProgress: {'identifier': 'sensor_sim', 'progress': 'install'}
+[4.148480] (sensor_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bryan_wsl/projects/ros2_ws/build/sensor_sim'], 'cwd': '/home/bryan_wsl/projects/ros2_ws/build/sensor_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bryan_wsl'), ('GIT_ASKPASS', '/home/bryan_wsl/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/bryan_wsl'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c1807fcb-eca5-43d1-82e0-d23dee6b2c16.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/bryan_wsl/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/bryan_wsl/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bryan_wsl'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/2517_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bryan_wsl/bin:/home/bryan_wsl/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/remote-cli:/home/bryan_wsl/bin:/opt/ros/humble/bin:/home/bryan_wsl/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Bryan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Bryan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Bryan/.dotnet/tools:/snap/bin:/home/bryan_wsl/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('WT_SESSION', 'e61404ac-5466-4b54-adbf-f96e36367286'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fd7448247a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/bryan_wsl/projects/ros2_ws/build/sensor_sim'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.153820] (sensor_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.155753] (sensor_sim) StdoutLine: {'line': b'-- Installing: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/lib/sensor_sim/sensor_sim\n'}
+[4.156934] (sensor_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/bryan_wsl/projects/ros2_ws/install/sensor_sim/lib/sensor_sim/sensor_sim" to ""\n'}
+[4.157022] (sensor_sim) StdoutLine: {'line': b'-- Installing: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/ament_index/resource_index/package_run_dependencies/sensor_sim\n'}
+[4.157694] (sensor_sim) StdoutLine: {'line': b'-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/ament_index/resource_index/parent_prefix_path/sensor_sim\n'}
+[4.158155] (sensor_sim) StdoutLine: {'line': b'-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/environment/ament_prefix_path.sh\n'}
+[4.158380] (sensor_sim) StdoutLine: {'line': b'-- Installing: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/environment/ament_prefix_path.dsv\n'}
+[4.158585] (sensor_sim) StdoutLine: {'line': b'-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/environment/path.sh\n'}
+[4.158627] (sensor_sim) StdoutLine: {'line': b'-- Installing: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/environment/path.dsv\n'}
+[4.158658] (sensor_sim) StdoutLine: {'line': b'-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/local_setup.bash\n'}
+[4.158740] (sensor_sim) StdoutLine: {'line': b'-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/local_setup.sh\n'}
+[4.158923] (sensor_sim) StdoutLine: {'line': b'-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/local_setup.zsh\n'}
+[4.158975] (sensor_sim) StdoutLine: {'line': b'-- Installing: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/local_setup.dsv\n'}
+[4.159006] (sensor_sim) StdoutLine: {'line': b'-- Installing: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/package.dsv\n'}
+[4.159033] (sensor_sim) StdoutLine: {'line': b'-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/ament_index/resource_index/packages/sensor_sim\n'}
+[4.159062] (sensor_sim) StdoutLine: {'line': b'-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/cmake/sensor_simConfig.cmake\n'}
+[4.159090] (sensor_sim) StdoutLine: {'line': b'-- Up-to-date: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/cmake/sensor_simConfig-version.cmake\n'}
+[4.159117] (sensor_sim) StdoutLine: {'line': b'-- Installing: /home/bryan_wsl/projects/ros2_ws/install/sensor_sim/share/sensor_sim/package.xml\n'}
+[4.160100] (sensor_sim) CommandEnded: {'returncode': 0}
+[4.176447] (sensor_sim) JobEnded: {'identifier': 'sensor_sim', 'rc': 0}
+[4.177271] (-) EventReactorShutdown: {}
